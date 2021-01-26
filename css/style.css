@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../fonts/WorkSans.ttf');
+}
+
+body {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+.item-link {
+  color: black;
+  cursor: pointer;
+}
+
+.item-link:hover svg {
+  fill: #008CFF;
+}
+
+.item-link:hover {
+  color: #008CFF;
+}
