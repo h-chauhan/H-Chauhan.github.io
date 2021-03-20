@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'WorkSans';
-  src: url('../fonts/WorkSans.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
   font-family: 'Montserrat', 'Open Sans', sans-serif;
@@ -34,4 +31,22 @@ footer {
 
 .item-link:hover {
   color: #008CFF;
+}
+
+.fab {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 60px;
+  height: 60px;
+  margin: 2rem;
+  border-radius: 50%;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.fab a {
+  color: white;
 }
